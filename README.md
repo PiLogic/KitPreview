@@ -11,4 +11,31 @@ ___
 
 ___
 
-**Download:** https://www.dropbox.com/s/itl05mo4l2h1dqq/KitPreview.jar?dl=0
+**Download:** https://www.spigotmc.org/resources/1-8-1-9-kitpreview.1999/download?version=83826
+
+___
+
+## Changelog 
+
+### Update 3.5
+> Fixed shift-click bug
+
+### Update 3.4
+> More optimization
+> Fixed a few small bugs
+
+### Update 3.3
+> Support for sounds in 1.8.x versions
+
+### Update 3.2
+> Small bug fixes
+
+### Update 3.1
+> Added support for 1.8.x
+> Added signs
+
+### Update 3.0
+> 1.9 update
+> Optimization
+> Doesn't display "kit received" message
+> Fixed a few small bugs
