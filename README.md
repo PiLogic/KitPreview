@@ -13,11 +13,14 @@ ___
 
 ___
 
-**Download:** https://www.spigotmc.org/resources/1-8-1-9-kitpreview.1999/download?version=84110
+**Download:** https://www.spigotmc.org/resources/1-8-1-9-kitpreview.1999/download?version=84140
 
 ___
 
 ## Changelog 
+
+#### Update 3.8
+- Fixed {KIT} placeholder
 
 #### Update 3.7
 - Added message customization
