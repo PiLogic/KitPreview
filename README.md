@@ -8,6 +8,8 @@ ___
 | /kitpreview        | default         |
 | /kitpreview reload | op              |
 | /previewkit        | previewkit.use  |
+| Create Sign        | previewkit.sign.create  |
+| Use Sign           | previewkit.sign.use  |
 
 ___
 
