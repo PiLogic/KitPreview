@@ -11,11 +11,15 @@ ___
 
 ___
 
-**Download:** https://www.spigotmc.org/resources/1-8-1-9-kitpreview.1999/download?version=83826
+**Download:** https://www.spigotmc.org/resources/1-8-1-9-kitpreview.1999/download?version=84099
 
 ___
 
 ## Changelog 
+
+#### Update 3.6
+- Fixed a few small bugs
+- Added Metrics support
 
 #### Update 3.5
 - Fixed shift-click bug
