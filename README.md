@@ -13,11 +13,14 @@ ___
 
 ___
 
-**Download:** https://www.spigotmc.org/resources/1-8-1-9-kitpreview.1999/download?version=84099
+**Download:** https://www.spigotmc.org/resources/1-8-1-9-kitpreview.1999/download?version=84110
 
 ___
 
 ## Changelog 
+
+#### Update 3.7
+- Added message customization
 
 #### Update 3.6
 - Fixed a few small bugs
