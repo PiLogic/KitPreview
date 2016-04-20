@@ -10,7 +10,7 @@ public class References {
     private Sound sound = null;
 
     public References() {
-        prefix = ChatColor.translateAlternateColorCodes('&', KitPreview.pl().getConfig().getString("Prefix") + " ");
+        prefix = Lang.PREFIX.getConfigValue(null) + " ";
         playSound = KitPreview.pl().getConfig().getBoolean("EnableSound");
         sound = Sound.valueOf(KitPreview.pl().getConfig().getString("Sound"));
     }

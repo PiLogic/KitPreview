@@ -1,10 +1,14 @@
 package com.seaneoconnor.kitpreview.commands;
 
 import com.seaneoconnor.kitpreview.KitPreview;
+import com.seaneoconnor.kitpreview.Lang;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+
+import java.io.IOException;
 
 public class CommandKitPreview implements CommandExecutor {
 
@@ -20,14 +24,14 @@ public class CommandKitPreview implements CommandExecutor {
                 sender.sendMessage(ChatColor.DARK_GRAY.toString() + ChatColor.STRIKETHROUGH + "+------------------------------------------------+");
             } else if (args.length == 1 && args[0].equalsIgnoreCase("reload")) {
                 if (!sender.isOp()) {
-                    sender.sendMessage(plugin.references.getPrefix() + ChatColor.RED + "You do not have permission to use this command.");
+                    sender.sendMessage(plugin.references.getPrefix() + Lang.NO_PERM.getConfigValue(null));
                 } else {
                     plugin.reloadConfig();
                     plugin.saveConfig();
                     sender.sendMessage(plugin.references.getPrefix() + ChatColor.GREEN + "Configuration file reloaded.");
                 }
             } else {
-                sender.sendMessage(plugin.references.getPrefix() + ChatColor.GRAY + "Were you looking for \"/" + label + "\"reload\"?");
+                sender.sendMessage(plugin.references.getPrefix() + ChatColor.GRAY + "Were you looking for /kitpreview reload?");
             }
         }
         return true;

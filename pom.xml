@@ -6,28 +6,12 @@
 
     <groupId>KitPreview</groupId>
     <artifactId>kitpreview</artifactId>
-    <version>3.4.0</version>
-
-    <repositories>
-        <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-        </repository>
-    </repositories>
+    <version>3.8.0</version>
     <dependencies>
-        <!--Spigot API-->
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.9.2-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <!--Bukkit API-->
-        <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.9.2-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations-java5</artifactId>
+            <version>RELEASE</version>
         </dependency>
     </dependencies>
 
