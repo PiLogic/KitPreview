@@ -1,3 +1,5 @@
+![License](https://camo.githubusercontent.com/6e93f49bc4db59b355cd5e19290d1b66d2c708bb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d47504c25323076332d626c75652e7376673f7374796c653d666c6174)
+
 # KitPreview
 > KitPreview plugin on Spigot: https://www.spigotmc.org/resources/1-8-1-9-kitpreview.1999
 
