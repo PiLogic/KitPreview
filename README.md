@@ -1,3 +1,5 @@
+THIS PROJECT IS NO LONGER MAINTANED. FEEL FREE TO USE THIS CODE ANYWHERE YOU WANT. (YOU CAN EVEN SELL IT, IDGF)
+
 # KitPreview
 > KitPreview plugin on Spigot: https://www.spigotmc.org/resources/1-8-1-9-kitpreview.1999
 
